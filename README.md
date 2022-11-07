@@ -32,3 +32,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Document
+
+1. getServerSideProps
+   > 넥스트는 getServerSideProps라는 페이지의 데이터를 서버로부터 제공받는 기본 API를 가지고 있다.
+2. getStaticProps
+   > getStaticProps는 getServerSideProps와 다르게 빌드 시에 데이터를 불러와 결과를 json으로 저장하여 사용한다. 따라서 일관된 데이터를 보여주게 된다.
