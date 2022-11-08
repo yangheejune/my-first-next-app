@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   return (
     <>
       <Header />
@@ -14,6 +14,6 @@ function MyApp({ Component, pageProps }) {
       `}</style>
     </>
   );
-}
+};
 
 export default MyApp;
